@@ -4,6 +4,7 @@ import Package.one.*;
 import Package.three.DocumentWorker;
 import Package.two.Plane;
 import Package.two.Car;
+import Package.two.Ship;
 import Package.two.Vehicle;
 
 public class Main {
@@ -23,6 +24,8 @@ public class Main {
 
         Vehicle plane = new Plane(8000, 500);
         Vehicle car = new Car(180, 4, 300);
+        Vehicle ship = new Ship(800, 1500, 40, 2020);
+        ship.run();
         plane.run();
         car.run();
 

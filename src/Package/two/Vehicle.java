@@ -44,7 +44,7 @@ public class Vehicle {
         System.out.println(this.year);
         System.out.println(this.count);
     }
-
+/*
     public Vehicle(int height, int count) {
         this.height = height;
         this.count = count;
@@ -59,4 +59,5 @@ public class Vehicle {
         this(height, count, speed);
         this.year = year;
     }
+*/
 }
