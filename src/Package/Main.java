@@ -22,13 +22,7 @@ public class Main {
         ClassRoom classRoom2 = new ClassRoom(excelentPupil, badPupil);
         ClassRoom classRoom3 = new ClassRoom(excelentPupil, badPupil, goodPupil);
 
-        Vehicle plane = new Plane(8000, 500);
-        Vehicle car = new Car(180, 4, 300);
-        Vehicle ship = new Ship(800, 1500, 40, 2020);
-        ship.run();
-        plane.run();
-        car.run();
-
+        Vehicle plane = new Plane(500, 700, 100000);
         DocumentWorker doc = new DocumentWorker();
         DocumentWorker pro = new DocumentWorker("pro");
         DocumentWorker exp = new DocumentWorker("exp");

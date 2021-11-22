@@ -1,9 +1,11 @@
 package Package.two;
 
 public class Car extends Vehicle {
-    public Car(int height, int count, int speed) {
-        setHeight(height);
-        setCount(count);
-        setSpeed(speed);
+    private int speed;
+    private int number;
+
+    public Car(int speed, int number) {
+        this.speed = speed;
+        this.number = number;
     }
 }
